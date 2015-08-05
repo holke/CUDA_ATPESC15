@@ -8,7 +8,7 @@ int main(int argc, char **argv){
 
   /* hard code platform and device number */
   int plat = 0;
-  int dev = 1;
+  int dev = 0;
 
   occa::device device;
   device.setup("OpenCL", plat, dev);
